@@ -299,7 +299,6 @@ let process = {
             </div>
           </div></a>
         </li>
-      </ul>
         <li><a href='#' onClick={process.Kitsune}>
           <div className="item-content">
             <div className="item-inner">
@@ -308,6 +307,7 @@ let process = {
             </div>
           </div></a>
         </li>
+      </ul>
     </div>
         <div className="list-group">
       <ul>
@@ -619,7 +619,7 @@ Megasthenes and Pliny the Elder (quoting Megasthenes) mentioned these people in 
                 <div className="center">World of Myth</div>
               </div>
             </div>
-            <center><img src={"img/berzekers.jpg"} width={"100%"}/>
+            <center><img src={"img/berzerkers.jpg"} width={"100%"}/>
             <p> Berserkers (or berserks) were champion Norse warriors who are primarily reported in Icelandic sagas to have fought in a trance-like fury, a characteristic which later gave rise to the English word berserk. </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
@@ -809,7 +809,7 @@ Scientists discount the existence of Bigfoot and consider it to be a combination
                 <div className="center">World of Myth</div>
               </div>
             </div>
-            <center><img src={"img/dragon.jpg"} width={"100%"}/>
+            <center><img src={"img/Dragon.jpg"} width={"100%"}/>
             <p> Dragon is a legendary creature, typically scaled or fire-spewing and with serpentine, reptilian or avian traits, that features in the myths of many cultures around world.  </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
@@ -1090,7 +1090,8 @@ Scientists discount the existence of Bigfoot and consider it to be a combination
 </div>
 </div>
 </div>
-</div>;M.render(content,document.getElementById('root'));
+</div>;
+ReactDOM.render(content,document.getElementById('root'));
   },
   Hellhound:function(){
       let content = <div className="page">
@@ -1389,7 +1390,7 @@ Scientists discount the existence of Bigfoot and consider it to be a combination
 
       ReactDOM.render(content,document.getElementById('root'));
   },
-    SeaSerpent:function(){
+  SeaSerpent:function(){
      let content = <div className="page">
     <div className="page-content infinite-scroll infinite-scroll-top">
 <div className="page-content contacts-content">
@@ -1505,7 +1506,7 @@ Scientists discount the existence of Bigfoot and consider it to be a combination
                 <div className="center">World of Myth</div>
               </div>
             </div>
-            <center><img src={"img/astomi_main.jpg"} width={"100%"}/>
+            <center><img src={"img/wendigo.jpg"} width={"100%"}/>
             <p> In Algonquian folklore, the wendigo or windigo is a mythical cannibal monster or evil spirit native to the northern forests of the Atlantic Coast and Great Lakes Region of both the United States and Canada. The wendigo may appear as a monster with some characteristics of a human, or as a spirit who has possessed a human being and made them become monstrous. It is historically associated with cannibalism, murder, insatiable greed, and the cultural taboos against such behaviours.
 The legend lends its name to the controversial modern medical term Wendigo psychosis, described by psychiatrists as a culture-bound syndrome with symptoms such as an intense craving for human flesh and a fear of becoming a cannibal. In some Indigenous communities, environmental destruction and insatiable greed are also seen as a manifestation of Wendigo Psychosis. </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
