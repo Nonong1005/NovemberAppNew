@@ -7,7 +7,7 @@ let process = {
   },
   loading:function(){
     let content = <div>
-          Loading....
+          Loading.....
         </div>;
     ReactDOM.render(content,document.getElementById('root'));
   }
